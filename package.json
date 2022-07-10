@@ -1,0 +1,24 @@
+{
+  "name": "mini-excel",
+  "version": "1.0.0",
+  "description": "Mini excel utilities",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "mini-excel": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraPrager/miniExcel.git"
+  },
+  "author": "Sara Prager",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraPrager/miniExcel/issues"
+  },
+  "homepage": "https://github.com/SaraPrager/miniExcel#readme",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "mathjs": "^10.6.4"
+  }
+}
