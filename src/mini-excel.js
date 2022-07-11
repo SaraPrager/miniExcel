@@ -32,7 +32,7 @@ export class MiniExcel {
         }
 
         cellValue = cellValue.replace('=', '')
-            .replace(/({)(\d)(})/, (_match, _$1, $2) => { return this.getActualCellValue($2) });
+            .replaceAll(/({)(\d)(})/g, (_match, _$1, $2) => { return this.getActualCellValue($2) });
         return evaluate(cellValue);
     }
 }
