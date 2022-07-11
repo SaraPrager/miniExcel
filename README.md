@@ -9,3 +9,6 @@ Press `a` to print the current state
 
 
 Press `b <index> <value>` to change a value
+
+
+Press `exit` to exit

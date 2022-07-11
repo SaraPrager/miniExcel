@@ -16,7 +16,6 @@ export class MiniExcel {
 
     setValue(cellIndex, cellValue) {
         this._cellMap[cellIndex] = cellValue;
-        console.log(`Cell #${cellIndex} changed to ${cellValue}`);
     }
 
     getState() {
